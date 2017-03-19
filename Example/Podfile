@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ResizableView_Example' do
+  pod 'ResizableView', :path => '../'
+
+  target 'ResizableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
