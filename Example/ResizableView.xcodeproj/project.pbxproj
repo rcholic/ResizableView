@@ -15,6 +15,11 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		978FEAC3923490DA735F1AB3 /* Pods_ResizableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882C9C5EF9AABE1E3CAF426 /* Pods_ResizableView_Example.framework */; };
 		AC5DFCA542F56830BB7D6637 /* Pods_ResizableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D4969C59226F1183D2FC8 /* Pods_ResizableView_Tests.framework */; };
+		EB6DF3B41E7F567800521B99 /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */; };
+		EB6DF3B51E7F567800521B99 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B01E7F567800521B99 /* Configuration.swift */; };
+		EB6DF3B61E7F567800521B99 /* DraggableView+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */; };
+		EB6DF3B71E7F567800521B99 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B21E7F567800521B99 /* DraggableView.swift */; };
+		EB6DF3B81E7F567800521B99 /* GripperBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B31E7F567800521B99 /* GripperBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		125F298E0E3555240038DF30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		125F298E0E3555240038DF30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		28D413F5275F7A0513A161A5 /* Pods-ResizableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Example/Pods-ResizableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		584D4969C59226F1183D2FC8 /* Pods_ResizableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ResizableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +46,17 @@
 		607FACE51AFB9204008FA782 /* ResizableView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75D63FBFAAED31ECDF99783A /* ResizableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ResizableView.podspec; path = ../ResizableView.podspec; sourceTree = "<group>"; };
+		75D63FBFAAED31ECDF99783A /* ResizableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ResizableView.podspec; path = ../ResizableView.podspec; sourceTree = "<group>"; };
 		9087690B3990D6EC1EF35790 /* Pods-ResizableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Example/Pods-ResizableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A882C9C5EF9AABE1E3CAF426 /* Pods_ResizableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFF10381FF0A813D9B41C7F /* Pods-ResizableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE0D6A272ED81F260E335017 /* Pods-ResizableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF75C636ACB3B4E62AE5604E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+ext.swift"; sourceTree = "<group>"; };
+		EB6DF3B01E7F567800521B99 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DraggableView+Events.swift"; sourceTree = "<group>"; };
+		EB6DF3B21E7F567800521B99 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		EB6DF3B31E7F567800521B99 /* GripperBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GripperBorder.swift; sourceTree = "<group>"; };
+		FF75C636ACB3B4E62AE5604E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				125F298E0E3555240038DF30 /* README.md */,
+				75D63FBFAAED31ECDF99783A /* ResizableView.podspec */,
+				FF75C636ACB3B4E62AE5604E /* LICENSE */,
+				EB6DF3AE1E7F567800521B99 /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ResizableView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -132,9 +146,6 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				75D63FBFAAED31ECDF99783A /* ResizableView.podspec */,
-				125F298E0E3555240038DF30 /* README.md */,
-				FF75C636ACB3B4E62AE5604E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -157,6 +168,18 @@
 				584D4969C59226F1183D2FC8 /* Pods_ResizableView_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6DF3AE1E7F567800521B99 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */,
+				EB6DF3B01E7F567800521B99 /* Configuration.swift */,
+				EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */,
+				EB6DF3B21E7F567800521B99 /* DraggableView.swift */,
+				EB6DF3B31E7F567800521B99 /* GripperBorder.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +384,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6DF3B71E7F567800521B99 /* DraggableView.swift in Sources */,
+				EB6DF3B81E7F567800521B99 /* GripperBorder.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EB6DF3B41E7F567800521B99 /* CGPoint+ext.swift in Sources */,
+				EB6DF3B51E7F567800521B99 /* Configuration.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				EB6DF3B61E7F567800521B99 /* DraggableView+Events.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

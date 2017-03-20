@@ -1,0 +1,6 @@
+framework module ResizableView {
+  umbrella header "ResizableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

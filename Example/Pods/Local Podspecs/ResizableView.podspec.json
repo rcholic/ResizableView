@@ -1,0 +1,22 @@
+{
+  "name": "ResizableView",
+  "version": "0.1.0",
+  "summary": "A short description of ResizableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rcholic/ResizableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rcholic": "ivytony@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rcholic/ResizableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ResizableView/Classes/**/*"
+}

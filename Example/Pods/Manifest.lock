@@ -1,0 +1,16 @@
+PODS:
+  - ResizableView (0.1.0)
+
+DEPENDENCIES:
+  - ResizableView (from `../`)
+
+EXTERNAL SOURCES:
+  ResizableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ResizableView: 9707991814c761191c2ff4dd0f1cce46925c7555
+
+PODFILE CHECKSUM: ebb8857314e38faeed9e806bf5d486099babf2b3
+
+COCOAPODS: 1.2.0
