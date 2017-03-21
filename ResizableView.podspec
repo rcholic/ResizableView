@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ResizableView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'An iOS library for making user-resizable UIView objects'
 
   s.description      = 'This library allows iOS app developer to create user resizable UIView objects such as UIView and UIImageView. The user will be able to resize and move these objects by dragging them on the screen'

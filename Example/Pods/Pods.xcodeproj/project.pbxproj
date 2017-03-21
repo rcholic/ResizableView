@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		06DEA1B393E8839BCA7353F895587538 /* Pods-ResizableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6B19A273216A6B3DE690F91505B15A /* Pods-ResizableView_Tests-dummy.m */; };
-		1367F30A8E694E6BD33D94B15B6F1EF9 /* ResizableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96467B79761FCB55145B570F600F227E /* ResizableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD2CFA8EE781003294ED42DC3E33116 /* ResizableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEED5F6CF99302813E8E1AE82AA3085 /* ResizableView-dummy.m */; };
+		1367F30A8E694E6BD33D94B15B6F1EF9 /* ResizableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C664D694EEDAED1F62C410B3054CA6D3 /* ResizableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2151527CE32EFB63E3D421161D34CDF3 /* GripperBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830527DF5407BFC753F7B0A9D6308D0C /* GripperBorder.swift */; };
+		300B8932C1CA2C5E35CD2D11569D7743 /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F404839EA5428FB7552B22075ED8F7 /* CGPoint+ext.swift */; };
 		532898465B77FF5F6D2519D7B832F940 /* Pods-ResizableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88E2B31EAB6FDE094E365ABF5CE072A /* Pods-ResizableView_Example-dummy.m */; };
-		5A3A88A2AB47C3442516A821F768C27E /* DraggableView+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E631AB215E1F7580D031BB3A3DBA4D5 /* DraggableView+Events.swift */; };
-		62959B27320C53710FFF1BA6A65BC445 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6471F9A2470B35DF066829BF6775E3E /* DraggableView.swift */; };
+		5C58A2F6DDCE7C9A73AEBE0EEB0C7344 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1187632809A948F16DF634C4D91E100 /* Configuration.swift */; };
+		5C7A3D4CC6653644769314B2CF8A4E0A /* ResizableView+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838199DB85580054249D10F232A2BA9 /* ResizableView+Events.swift */; };
 		67C04D277F3F2091641E6FF714EC2796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		780FC181100779A44BB743E61C75F585 /* Pods-ResizableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A526564E6D106F44A315614620CC23D1 /* Pods-ResizableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7972A197C196C24CAC4E9E6BFC90CF6E /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F971D5FCFE72CE3EEEDCDFAFE97AA /* CGPoint+ext.swift */; };
 		7B658502F4C08AF8F8923C7FB5B8BB09 /* Pods-ResizableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E79B0906B2E70B629AA4BA665F86167F /* Pods-ResizableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AFBFCDC1F90DC1F9262A204E6648CB7 /* GripperBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA6FBB9E1093F863B66664F13C825C /* GripperBorder.swift */; };
+		864633D7492C9868D4F2FCB6A885A893 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3885618522E7868993208E455140CA2 /* ResizableView.swift */; };
 		BBC1551F0672CA349FA44EC2FB611117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		D510018FC46F0CD39DB1B57072749E00 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92141212685EFD340DE4E61077FB3849 /* Configuration.swift */; };
-		D6445A7F4FE4006A94A6746D5C93E180 /* ResizableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB2DA53FF6158D13FF394F8BFF0B93 /* ResizableView-dummy.m */; };
 		D877710CD3676AD39B29EF56F29F81E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		F806474B18F63B665C8D4E795C6930FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -38,38 +38,38 @@
 		13FA910018682B8A20C7244960E2514C /* Pods-ResizableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17E297B30D4AE3F41EB2588823514D01 /* Pods-ResizableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D259459248083246258B2E572B09426 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E631AB215E1F7580D031BB3A3DBA4D5 /* DraggableView+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DraggableView+Events.swift"; path = "Sources/DraggableView+Events.swift"; sourceTree = "<group>"; };
 		2F7657CDE1EFEDF21AF9F82E1FC3033B /* Pods_ResizableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizableView_Tests.framework; path = "Pods-ResizableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FB2DA53FF6158D13FF394F8BFF0B93 /* ResizableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ResizableView-dummy.m"; sourceTree = "<group>"; };
-		366C4E72C2033C04659DD848E5D22F26 /* ResizableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ResizableView.xcconfig; sourceTree = "<group>"; };
 		463AF661E6FABCFCEAA26C67DED479A0 /* Pods_ResizableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizableView_Example.framework; path = "Pods-ResizableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2F971D5FCFE72CE3EEEDCDFAFE97AA /* CGPoint+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+ext.swift"; path = "Sources/CGPoint+ext.swift"; sourceTree = "<group>"; };
+		4838199DB85580054249D10F232A2BA9 /* ResizableView+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ResizableView+Events.swift"; sourceTree = "<group>"; };
 		55EE5CA1CC37A3313929F4C3CFB1FE82 /* Pods-ResizableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CEED5F6CF99302813E8E1AE82AA3085 /* ResizableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ResizableView-dummy.m"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62F404839EA5428FB7552B22075ED8F7 /* CGPoint+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGPoint+ext.swift"; sourceTree = "<group>"; };
 		6369DE4D61DB6A35E5F56A31646CCF2D /* Pods-ResizableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizableView_Example-resources.sh"; sourceTree = "<group>"; };
+		762C9A077DFB64E7BA5C0B8DE7A342EB /* ResizableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizableView-prefix.pch"; sourceTree = "<group>"; };
 		79F1391CC7BF669FE0C11546D0C07A96 /* Pods-ResizableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizableView_Tests-resources.sh"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		82AA6FBB9E1093F863B66664F13C825C /* GripperBorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GripperBorder.swift; path = Sources/GripperBorder.swift; sourceTree = "<group>"; };
-		82EAC0D51168724EC85A8F68F2917F80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830527DF5407BFC753F7B0A9D6308D0C /* GripperBorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GripperBorder.swift; sourceTree = "<group>"; };
 		84AA26E411D88DB1F68583C970DB9175 /* Pods-ResizableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		863956A3F3A3A6FEE443DE7F563134A0 /* Pods-ResizableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		873039F151CE49027CEB9380ECDCCCA0 /* ResizableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ResizableView.xcconfig; sourceTree = "<group>"; };
 		87AD686EB50EA9D13537AA87A696038D /* Pods-ResizableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		92141212685EFD340DE4E61077FB3849 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
+		8BAB9EA2F1E3D8F8B695A9C039FED9F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946012EC8BDC59F4727E6195BD29C6C0 /* Pods-ResizableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ResizableView_Tests.modulemap"; sourceTree = "<group>"; };
 		959BC6FDAEC90279BC3ED69E0140B8DC /* Pods-ResizableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96467B79761FCB55145B570F600F227E /* ResizableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizableView-umbrella.h"; sourceTree = "<group>"; };
 		99BC3033FECCB63D3501FB4F3780F26E /* Pods-ResizableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F6EC4F2089710424BF7B61ED2A46C14 /* Pods-ResizableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ResizableView_Example.modulemap"; sourceTree = "<group>"; };
 		A20587544870BEAFE3B973A1FDE2DF6F /* Pods-ResizableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A526564E6D106F44A315614620CC23D1 /* Pods-ResizableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A6471F9A2470B35DF066829BF6775E3E /* DraggableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DraggableView.swift; path = Sources/DraggableView.swift; sourceTree = "<group>"; };
 		A674D940F97CAE279BB356FA10BB57A1 /* Pods-ResizableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A8066B75AA492D81895FFF7ADBDE1F91 /* ResizableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ResizableView.modulemap; sourceTree = "<group>"; };
 		BA6B19A273216A6B3DE690F91505B15A /* Pods-ResizableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizableView_Tests-dummy.m"; sourceTree = "<group>"; };
 		BD5A6B6ED5B3CD5135A0430719F4DAAD /* ResizableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ResizableView.framework; path = ResizableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A8FC81388E11B55159CD952D8256F0 /* ResizableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ResizableView.modulemap; sourceTree = "<group>"; };
+		C1187632809A948F16DF634C4D91E100 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		C664D694EEDAED1F62C410B3054CA6D3 /* ResizableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizableView-umbrella.h"; sourceTree = "<group>"; };
 		DF92DAE86F65E8A847889E8C62680FD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0169CCC55E52CC2D199503B9905FF8E /* ResizableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizableView-prefix.pch"; sourceTree = "<group>"; };
+		E3885618522E7868993208E455140CA2 /* ResizableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
 		E79B0906B2E70B629AA4BA665F86167F /* Pods-ResizableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizableView_Example-umbrella.h"; sourceTree = "<group>"; };
 		E88E2B31EAB6FDE094E365ABF5CE072A /* Pods-ResizableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizableView_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,18 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A22FA80D6112200F6B36C6E2A2124EF /* Support Files */ = {
+		17A29598E2D59A80E54C765319A0D066 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82EAC0D51168724EC85A8F68F2917F80 /* Info.plist */,
-				C0A8FC81388E11B55159CD952D8256F0 /* ResizableView.modulemap */,
-				366C4E72C2033C04659DD848E5D22F26 /* ResizableView.xcconfig */,
-				32FB2DA53FF6158D13FF394F8BFF0B93 /* ResizableView-dummy.m */,
-				E0169CCC55E52CC2D199503B9905FF8E /* ResizableView-prefix.pch */,
-				96467B79761FCB55145B570F600F227E /* ResizableView-umbrella.h */,
+				8BAB9EA2F1E3D8F8B695A9C039FED9F7 /* Info.plist */,
+				A8066B75AA492D81895FFF7ADBDE1F91 /* ResizableView.modulemap */,
+				873039F151CE49027CEB9380ECDCCCA0 /* ResizableView.xcconfig */,
+				5CEED5F6CF99302813E8E1AE82AA3085 /* ResizableView-dummy.m */,
+				762C9A077DFB64E7BA5C0B8DE7A342EB /* ResizableView-prefix.pch */,
+				C664D694EEDAED1F62C410B3054CA6D3 /* ResizableView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ResizableView";
+			path = "Example/Pods/Target Support Files/ResizableView";
 			sourceTree = "<group>";
 		};
 		1DF8BE2A05CE04953515BEB4D9623107 /* Products */ = {
@@ -127,6 +127,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		209BDE70488866BBD16504A9C58DC08F /* ResizableView */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2315693536449CFACB43F068CE1C6 /* Source */,
+				17A29598E2D59A80E54C765319A0D066 /* Support Files */,
+			);
+			name = ResizableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,29 +145,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		710DC44EE4004835DE74EF46F7C20572 /* ResizableView */ = {
-			isa = PBXGroup;
-			children = (
-				4C2F971D5FCFE72CE3EEEDCDFAFE97AA /* CGPoint+ext.swift */,
-				92141212685EFD340DE4E61077FB3849 /* Configuration.swift */,
-				A6471F9A2470B35DF066829BF6775E3E /* DraggableView.swift */,
-				1E631AB215E1F7580D031BB3A3DBA4D5 /* DraggableView+Events.swift */,
-				82AA6FBB9E1093F863B66664F13C825C /* GripperBorder.swift */,
-				0A22FA80D6112200F6B36C6E2A2124EF /* Support Files */,
-			);
-			name = ResizableView;
-			path = ResizableView;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				81C81EB6119A0B527EA92BA222B4BFF6 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				C53799F65805D1E23F9E0D236A60DF83 /* Pods */,
 				1DF8BE2A05CE04953515BEB4D9623107 /* Products */,
 				FFAE370273AE1CF723384C90A6D6507A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81C81EB6119A0B527EA92BA222B4BFF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209BDE70488866BBD16504A9C58DC08F /* ResizableView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A6AE6552FB89BCD95B5E687897CA3713 /* Pods-ResizableView_Tests */ = {
@@ -196,14 +200,6 @@
 			path = "Target Support Files/Pods-ResizableView_Example";
 			sourceTree = "<group>";
 		};
-		C53799F65805D1E23F9E0D236A60DF83 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				710DC44EE4004835DE74EF46F7C20572 /* ResizableView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +207,19 @@
 				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1E2315693536449CFACB43F068CE1C6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				62F404839EA5428FB7552B22075ED8F7 /* CGPoint+ext.swift */,
+				C1187632809A948F16DF634C4D91E100 /* Configuration.swift */,
+				830527DF5407BFC753F7B0A9D6308D0C /* GripperBorder.swift */,
+				E3885618522E7868993208E455140CA2 /* ResizableView.swift */,
+				4838199DB85580054249D10F232A2BA9 /* ResizableView+Events.swift */,
+			);
+			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		FFAE370273AE1CF723384C90A6D6507A /* Targets Support Files */ = {
@@ -256,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206BC9F4A4872BC6D2B2E2D98F34F9AF /* Build configuration list for PBXNativeTarget "ResizableView" */;
 			buildPhases = (
-				60937E984F78A096F99EB033E3B1F4DC /* Sources */,
+				2CF79D1E577234AC1852786724E1F72F /* Sources */,
 				5FE315A9B481D56B14D8A13FE2B9A06A /* Frameworks */,
 				1119E2910D73E3218FB03790E01572BD /* Headers */,
 			);
@@ -333,16 +342,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60937E984F78A096F99EB033E3B1F4DC /* Sources */ = {
+		2CF79D1E577234AC1852786724E1F72F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7972A197C196C24CAC4E9E6BFC90CF6E /* CGPoint+ext.swift in Sources */,
-				D510018FC46F0CD39DB1B57072749E00 /* Configuration.swift in Sources */,
-				5A3A88A2AB47C3442516A821F768C27E /* DraggableView+Events.swift in Sources */,
-				62959B27320C53710FFF1BA6A65BC445 /* DraggableView.swift in Sources */,
-				9AFBFCDC1F90DC1F9262A204E6648CB7 /* GripperBorder.swift in Sources */,
-				D6445A7F4FE4006A94A6746D5C93E180 /* ResizableView-dummy.m in Sources */,
+				300B8932C1CA2C5E35CD2D11569D7743 /* CGPoint+ext.swift in Sources */,
+				5C58A2F6DDCE7C9A73AEBE0EEB0C7344 /* Configuration.swift in Sources */,
+				2151527CE32EFB63E3D421161D34CDF3 /* GripperBorder.swift in Sources */,
+				5C7A3D4CC6653644769314B2CF8A4E0A /* ResizableView+Events.swift in Sources */,
+				0BD2CFA8EE781003294ED42DC3E33116 /* ResizableView-dummy.m in Sources */,
+				864633D7492C9868D4F2FCB6A885A893 /* ResizableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +383,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -418,72 +427,7 @@
 			};
 			name = Debug;
 		};
-		2E5B53917CFA588844C62E84287DA5D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 366C4E72C2033C04659DD848E5D22F26 /* ResizableView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ResizableView/ResizableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ResizableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ResizableView/ResizableView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ResizableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4A878F876B64944D4AEDAA1F896424BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 366C4E72C2033C04659DD848E5D22F26 /* ResizableView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ResizableView/ResizableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ResizableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ResizableView/ResizableView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ResizableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8653DCC9F72AA152BC5F49F0FDFBC41E /* Release */ = {
+		081A6673492E42F10E9B0F3FD1976FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84AA26E411D88DB1F68583C970DB9175 /* Pods-ResizableView_Example.release.xcconfig */;
 			buildSettings = {
@@ -500,7 +444,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Example/Pods-ResizableView_Example.modulemap";
@@ -518,45 +462,9 @@
 			};
 			name = Release;
 		};
-		953B0018AFA4E49DEA48FC1640E27A12 /* Debug */ = {
+		283C6B14F3AA0AEE7243DCD2C11D6ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17E297B30D4AE3F41EB2588823514D01 /* Pods-ResizableView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Example/Pods-ResizableView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ResizableView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97B6DA3CFFD9B22105739797205C61F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A674D940F97CAE279BB356FA10BB57A1 /* Pods-ResizableView_Tests.release.xcconfig */;
+			baseConfigurationReference = 873039F151CE49027CEB9380ECDCCCA0 /* ResizableView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -569,29 +477,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ResizableView/ResizableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ResizableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ResizableView/ResizableView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ResizableView_Tests;
+				PRODUCT_NAME = ResizableView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A103B4CD8AB9DE705A19586B98150584 /* Debug */ = {
+		29C0A58BBD8E638A0B930457E07AE205 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 959BC6FDAEC90279BC3ED69E0140B8DC /* Pods-ResizableView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 873039F151CE49027CEB9380ECDCCCA0 /* ResizableView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -604,27 +509,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ResizableView/ResizableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ResizableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ResizableView/ResizableView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ResizableView_Tests;
+				PRODUCT_NAME = ResizableView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -664,14 +567,120 @@
 			};
 			name = Release;
 		};
+		608A679116CC97DD8335A357A9B78ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E297B30D4AE3F41EB2588823514D01 /* Pods-ResizableView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Example/Pods-ResizableView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ResizableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75FEC12A36499BB25957CA2045C2FF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A674D940F97CAE279BB356FA10BB57A1 /* Pods-ResizableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ResizableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		878314E67F1C1AEC7C557889AFED93E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959BC6FDAEC90279BC3ED69E0140B8DC /* Pods-ResizableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ResizableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ResizableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0AD1959782E867612061208275FA9867 /* Build configuration list for PBXNativeTarget "Pods-ResizableView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A103B4CD8AB9DE705A19586B98150584 /* Debug */,
-				97B6DA3CFFD9B22105739797205C61F4 /* Release */,
+				878314E67F1C1AEC7C557889AFED93E9 /* Debug */,
+				75FEC12A36499BB25957CA2045C2FF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -679,8 +688,8 @@
 		206BC9F4A4872BC6D2B2E2D98F34F9AF /* Build configuration list for PBXNativeTarget "ResizableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5B53917CFA588844C62E84287DA5D5 /* Debug */,
-				4A878F876B64944D4AEDAA1F896424BA /* Release */,
+				29C0A58BBD8E638A0B930457E07AE205 /* Debug */,
+				283C6B14F3AA0AEE7243DCD2C11D6ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -688,8 +697,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
-				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -697,8 +706,8 @@
 		D3194ED5547E63621251472D74A1D05D /* Build configuration list for PBXNativeTarget "Pods-ResizableView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				953B0018AFA4E49DEA48FC1640E27A12 /* Debug */,
-				8653DCC9F72AA152BC5F49F0FDFBC41E /* Release */,
+				608A679116CC97DD8335A357A9B78ECD /* Debug */,
+				081A6673492E42F10E9B0F3FD1976FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

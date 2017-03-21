@@ -18,11 +18,19 @@ extension ResizableView {
         delegate?.resizableView(self, didBegin: true)        
 
         anchorPoint = locateAnchorPoint(closeTo: firstTouch.location(in: self))
-        firstTouchPoint = firstTouch.preciseLocation(in: self.superview) // use superview's coord for resizing
+        if #available(iOS 9.1, *) {
+            firstTouchPoint = firstTouch.preciseLocation(in: self.superview)
+        } else {
+            firstTouchPoint = firstTouch.location(in: self.superview)
+        } // use superview's coord for resizing
         
         if !self.isResizing {
             // for translating/moving, use the view's self coordinate system
-            firstTouchPoint = firstTouch.preciseLocation(in: self)
+            if #available(iOS 9.1, *) {
+                firstTouchPoint = firstTouch.preciseLocation(in: self)
+            } else {
+                firstTouchPoint = firstTouch.location(in: self)
+            }
         }
     }
     
@@ -30,14 +38,30 @@ extension ResizableView {
         
         self.isActive = true
         
+        
+        
         if self.isResizing {
             // resize using touch location
-            if let referencePoint = touches.first?.preciseLocation(in: self.superview) {
+            var curPoint: CGPoint? = nil
+            if #available(iOS 9.1, *) {
+                curPoint = touches.first?.preciseLocation(in: self.superview)
+            } else {
+                curPoint = touches.first?.location(in: self.superview)
+            }
+            
+            if let referencePoint = curPoint {
                 resize(relativeTo: referencePoint)
             }
         } else {
             // translate using touch location
-            if let destPoint = touches.first?.preciseLocation(in: self) {
+            var curPoint: CGPoint? = nil
+            if #available(iOS 9.1, *) {
+                curPoint = touches.first?.preciseLocation(in: self)
+            } else {
+                curPoint = touches.first?.location(in: self)
+            }            
+            
+            if let destPoint = curPoint {
                 translate(to: destPoint)
             }
         }

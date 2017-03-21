@@ -2,7 +2,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'ResizableView_Example' do
-  pod 'ResizableView' #:path => '../'
+  pod 'ResizableView', :path => '../'
 
   target 'ResizableView_Tests' do
     inherit! :search_paths
