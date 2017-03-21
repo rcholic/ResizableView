@@ -14,7 +14,8 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2017 rcholic &lt;ivytony@gmail.com&gt;
+			<string>The MIT License
+Copyright (c) [Tony Wang] https://github.com/rcholic/ResizableView
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
-  s.source_files = 'Sources/*'
+  s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit'  
 
 end

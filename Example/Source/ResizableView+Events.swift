@@ -37,16 +37,30 @@ extension ResizableView {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         self.isActive = true
+        var destPoint: CGPoint? = nil
         
         if self.isResizing {
             // resize using touch location
-            if let referencePoint = touches.first?.location(in: self.superview) {
+            if #available(iOS 9.1, *) {
+                destPoint = touches.first?.preciseLocation(in: self.superview)
+            } else {
+                destPoint = touches.first?.location(in: self.superview)
+            }
+            
+            if let referencePoint = destPoint {
                 resize(relativeTo: referencePoint)
             }
         } else {
+            
+            if #available(iOS 9.1, *) {
+                destPoint = touches.first?.preciseLocation(in: self)
+            } else {
+                destPoint = touches.first?.location(in: self)
+            }
+            
             // translate using touch location
-            if let destPoint = touches.first?.location(in: self) {
-                translate(to: destPoint)
+            if let targetPoint = destPoint {
+                translate(to: targetPoint)
             }
         }
     }

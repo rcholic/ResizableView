@@ -15,11 +15,11 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		978FEAC3923490DA735F1AB3 /* Pods_ResizableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882C9C5EF9AABE1E3CAF426 /* Pods_ResizableView_Example.framework */; };
 		AC5DFCA542F56830BB7D6637 /* Pods_ResizableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D4969C59226F1183D2FC8 /* Pods_ResizableView_Tests.framework */; };
-		EB6DF3B41E7F567800521B99 /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */; };
-		EB6DF3B51E7F567800521B99 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B01E7F567800521B99 /* Configuration.swift */; };
-		EB6DF3B61E7F567800521B99 /* DraggableView+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */; };
-		EB6DF3B71E7F567800521B99 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B21E7F567800521B99 /* DraggableView.swift */; };
-		EB6DF3B81E7F567800521B99 /* GripperBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DF3B31E7F567800521B99 /* GripperBorder.swift */; };
+		EB907AE71E80D2FB00A1F748 /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB907AE21E80D2FB00A1F748 /* CGPoint+ext.swift */; };
+		EB907AE81E80D2FB00A1F748 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB907AE31E80D2FB00A1F748 /* Configuration.swift */; };
+		EB907AE91E80D2FB00A1F748 /* GripperBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB907AE41E80D2FB00A1F748 /* GripperBorder.swift */; };
+		EB907AEA1E80D2FB00A1F748 /* ResizableView+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB907AE51E80D2FB00A1F748 /* ResizableView+Events.swift */; };
+		EB907AEB1E80D2FB00A1F748 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB907AE61E80D2FB00A1F748 /* ResizableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +51,11 @@
 		A882C9C5EF9AABE1E3CAF426 /* Pods_ResizableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFF10381FF0A813D9B41C7F /* Pods-ResizableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE0D6A272ED81F260E335017 /* Pods-ResizableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizableView_Tests/Pods-ResizableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+ext.swift"; sourceTree = "<group>"; };
-		EB6DF3B01E7F567800521B99 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DraggableView+Events.swift"; sourceTree = "<group>"; };
-		EB6DF3B21E7F567800521B99 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
-		EB6DF3B31E7F567800521B99 /* GripperBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GripperBorder.swift; sourceTree = "<group>"; };
+		EB907AE21E80D2FB00A1F748 /* CGPoint+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+ext.swift"; sourceTree = "<group>"; };
+		EB907AE31E80D2FB00A1F748 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EB907AE41E80D2FB00A1F748 /* GripperBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GripperBorder.swift; sourceTree = "<group>"; };
+		EB907AE51E80D2FB00A1F748 /* ResizableView+Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResizableView+Events.swift"; sourceTree = "<group>"; };
+		EB907AE61E80D2FB00A1F748 /* ResizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
 		FF75C636ACB3B4E62AE5604E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +82,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				EB907AE11E80D2FB00A1F748 /* Source */,
 				125F298E0E3555240038DF30 /* README.md */,
 				75D63FBFAAED31ECDF99783A /* ResizableView.podspec */,
 				FF75C636ACB3B4E62AE5604E /* LICENSE */,
-				EB6DF3AE1E7F567800521B99 /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ResizableView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -170,16 +170,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB6DF3AE1E7F567800521B99 /* Sources */ = {
+		EB907AE11E80D2FB00A1F748 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EB6DF3AF1E7F567800521B99 /* CGPoint+ext.swift */,
-				EB6DF3B01E7F567800521B99 /* Configuration.swift */,
-				EB6DF3B11E7F567800521B99 /* DraggableView+Events.swift */,
-				EB6DF3B21E7F567800521B99 /* DraggableView.swift */,
-				EB6DF3B31E7F567800521B99 /* GripperBorder.swift */,
+				EB907AE21E80D2FB00A1F748 /* CGPoint+ext.swift */,
+				EB907AE31E80D2FB00A1F748 /* Configuration.swift */,
+				EB907AE41E80D2FB00A1F748 /* GripperBorder.swift */,
+				EB907AE51E80D2FB00A1F748 /* ResizableView+Events.swift */,
+				EB907AE61E80D2FB00A1F748 /* ResizableView.swift */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,13 +384,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6DF3B71E7F567800521B99 /* DraggableView.swift in Sources */,
-				EB6DF3B81E7F567800521B99 /* GripperBorder.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				EB6DF3B41E7F567800521B99 /* CGPoint+ext.swift in Sources */,
-				EB6DF3B51E7F567800521B99 /* Configuration.swift in Sources */,
+				EB907AEB1E80D2FB00A1F748 /* ResizableView.swift in Sources */,
+				EB907AE91E80D2FB00A1F748 /* GripperBorder.swift in Sources */,
+				EB907AE71E80D2FB00A1F748 /* CGPoint+ext.swift in Sources */,
+				EB907AE81E80D2FB00A1F748 /* Configuration.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				EB6DF3B61E7F567800521B99 /* DraggableView+Events.swift in Sources */,
+				EB907AEA1E80D2FB00A1F748 /* ResizableView+Events.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResizableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -539,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResizableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
