@@ -1,16 +1,16 @@
 PODS:
-  - ResizableView (0.1.0)
+  - ResizableView (0.2.0)
 
 DEPENDENCIES:
   - ResizableView (from `../`)
 
 EXTERNAL SOURCES:
   ResizableView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ResizableView: e5d596811a327ff1e954ccef39c7594872688bc5
+  ResizableView: 83936597e3b85366ed4682ad456a3c9e6760b816
 
 PODFILE CHECKSUM: 18a82a4d9c44c86dbff50f26253fec283949abb6
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.10.1

@@ -39,7 +39,7 @@ extension ViewController: ResizableViewDelegate {
     }
     
     func resizableView(_ resizableView: ResizableView, didBegin: Bool) {
-        self.view.bringSubview(toFront: resizableView)
+        self.view.bringSubviewToFront(resizableView)
         //        self.resizableView.showGripper()
     }
 }
